@@ -15,7 +15,7 @@
 <Experiment>
     <Screen v-for="i in 10" :key="i" :progress="i/10">
       Hello World.
-      <button @click="$magpie.nextScreen()">Fillo eksperimentin</button>
+      <button @click="$magpie.nextScreen()">Next</button>
     </Screen>
 </Experiment>
 ```

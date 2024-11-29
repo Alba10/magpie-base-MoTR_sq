@@ -24,7 +24,6 @@ This is a pre-built instruction screen, with limited functionality, but simpler 
         <slot name="default" />
       </div>
       <button @click="$magpie.nextScreen()">
-        {{ $t('general.nextButton') }}
       </button>
     </Slide>
   </Screen>
