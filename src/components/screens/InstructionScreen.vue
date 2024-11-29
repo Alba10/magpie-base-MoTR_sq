@@ -40,7 +40,16 @@ export default {
     Slide,
     Screen
   },
-  props: {}
+  props: {
+   title: {
+      type: String,
+      required: true,
+    },
+    buttonName: {
+      type: String,
+      default: "Start", // Fallback button text
+    }
+	}
 };
 </script>
 <style scoped>
