@@ -23,7 +23,7 @@ This is a pre-built instruction screen, with limited functionality, but simpler 
       <div class="instructions">
         <slot name="default" />
       </div>
-      <button @click="$magpie.nextScreen()">
+      <button @click="$magpie.nextScreen()">Fillo
       </button>
     </Slide>
   </Screen>
