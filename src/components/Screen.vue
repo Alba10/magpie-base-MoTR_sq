@@ -149,6 +149,10 @@ export default {
       default() {
         return {};
       }
+    },
+	 buttonName: {
+      type: String,
+      default: "Start", // Fallback button text
     }
   },
   data() {
