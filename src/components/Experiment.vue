@@ -6,12 +6,12 @@
 
     <Screen>
       blue
-      <button @click="$magpie.nextScreen()">next</button>
+      <button @click="$magpie.nextScreen()">Fillo</button>
     </Screen>
 
     <Screen>
       green
-      <button @click="$magpie.nextScreen()">next</button>
+      <button @click="$magpie.nextScreen()">Fillo</button>
     </Screen>
 
     <Screen>
@@ -29,7 +29,7 @@
     <Screen v-for="(color, i) in ['blue', 'green', 'yellow']" :key="i">
       <Slide>
         Screen {{i}}: {{ color }}
-        <button @click="$magpie.nextScreen()">next</button>
+        <button @click="$magpie.nextScreen()">Fillo</button>
       </Slide>
     </Screen>
 
